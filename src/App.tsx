@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import ProtectedRoute from './components/ProtectedRoute';
-import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -25,4 +25,3 @@ function App() {
 }
 
 export default App;
-

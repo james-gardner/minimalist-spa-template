@@ -11,6 +11,7 @@ A complete single-page application (SPA) skeletal template built with modern web
 - **DaisyUI** - Tailwind CSS component library
 - **TypeScript** - Type-safe JavaScript
 - **React Router** - Client-side routing
+- **Biome** - Fast linter and formatter
 
 ## Features
 
@@ -20,6 +21,7 @@ A complete single-page application (SPA) skeletal template built with modern web
 - ✅ Responsive design with Tailwind CSS and DaisyUI
 - ✅ TypeScript for type safety
 - ✅ Modern React with functional components and hooks
+- ✅ Code quality with Biome linter and formatter
 
 ## Getting Started
 
@@ -77,11 +79,21 @@ Preview the production build:
 npm run preview
 ```
 
-### Lint
+### Lint and Format
 
-Run ESLint:
+Run Biome to check code quality:
 ```bash
 npm run lint
+```
+
+Auto-fix issues with Biome:
+```bash
+npm run lint:fix
+```
+
+Format code with Biome:
+```bash
+npm run format
 ```
 
 ## Project Structure

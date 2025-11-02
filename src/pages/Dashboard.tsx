@@ -17,8 +17,13 @@ export default function Dashboard() {
           <div className="card-body">
             <h2 className="card-title">Profile</h2>
             <div className="space-y-2">
-              <p><strong>Email:</strong> {user?.primaryEmailAddress?.emailAddress}</p>
-              <p><strong>User ID:</strong> {user?.id}</p>
+              <p>
+                <strong>Email:</strong>{' '}
+                {user?.primaryEmailAddress?.emailAddress}
+              </p>
+              <p>
+                <strong>User ID:</strong> {user?.id}
+              </p>
             </div>
           </div>
         </div>
@@ -29,7 +34,9 @@ export default function Dashboard() {
             <div className="stat">
               <div className="stat-title">Account Created</div>
               <div className="stat-value text-primary text-xl">
-                {user?.createdAt ? new Date(user.createdAt).toLocaleDateString() : 'N/A'}
+                {user?.createdAt
+                  ? new Date(user.createdAt).toLocaleDateString()
+                  : 'N/A'}
               </div>
             </div>
           </div>
@@ -39,9 +46,21 @@ export default function Dashboard() {
           <div className="card-body">
             <h2 className="card-title">Quick Actions</h2>
             <div className="space-y-2">
-              <button className="btn btn-primary btn-sm btn-block">Action 1</button>
-              <button className="btn btn-secondary btn-sm btn-block">Action 2</button>
-              <button className="btn btn-accent btn-sm btn-block">Action 3</button>
+              <button
+                type="button"
+                className="btn btn-primary btn-sm btn-block"
+              >
+                Action 1
+              </button>
+              <button
+                type="button"
+                className="btn btn-secondary btn-sm btn-block"
+              >
+                Action 2
+              </button>
+              <button type="button" className="btn btn-accent btn-sm btn-block">
+                Action 3
+              </button>
             </div>
           </div>
         </div>

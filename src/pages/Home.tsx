@@ -5,8 +5,8 @@ export default function Home() {
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Welcome!</h1>
           <p className="py-6">
-            This is a minimalist single-page application built with Vite, React, Clerk,
-            DaisyUI, and Tailwind CSS.
+            This is a minimalist single-page application built with Vite, React,
+            Clerk, DaisyUI, and Tailwind CSS.
           </p>
           <div className="flex gap-4 justify-center">
             <div className="stat bg-base-100 rounded-lg shadow">

@@ -1,4 +1,9 @@
-import { SignInButton, SignUpButton, UserButton, useUser } from '@clerk/clerk-react';
+import {
+  SignInButton,
+  SignUpButton,
+  UserButton,
+  useUser,
+} from '@clerk/clerk-react';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -26,10 +31,14 @@ export default function Header() {
           {!isSignedIn ? (
             <>
               <SignInButton mode="modal">
-                <button className="btn btn-ghost btn-sm">Sign In</button>
+                <button type="button" className="btn btn-ghost btn-sm">
+                  Sign In
+                </button>
               </SignInButton>
               <SignUpButton mode="modal">
-                <button className="btn btn-primary btn-sm">Sign Up</button>
+                <button type="button" className="btn btn-primary btn-sm">
+                  Sign Up
+                </button>
               </SignUpButton>
             </>
           ) : (
