@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.53.4",
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.5"

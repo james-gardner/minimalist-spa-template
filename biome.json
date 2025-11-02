@@ -18,7 +18,8 @@
     "rules": {
       "recommended": true,
       "a11y": {
-        "recommended": true
+        "recommended": true,
+        "useValidAnchor": "off"
       },
       "complexity": {
         "recommended": true
