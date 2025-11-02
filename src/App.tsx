@@ -6,17 +6,17 @@ import Home from './pages/Home';
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route
-            path="/dashboard"
-            element={
-              <ProtectedRoute>
-                <Dashboard />
-              </ProtectedRoute>
-            }
-          />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   );
 }
