@@ -27,7 +27,7 @@ A complete single-page application (SPA) skeletal template built with modern web
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js (24 or higher)
 - npm or yarn
 - A Clerk account ([sign up for free](https://clerk.com))
 
